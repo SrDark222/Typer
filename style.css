@@ -1,60 +1,62 @@
+
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('https://media.giphy.com/media/L0NmyFi7NlcY4/giphy.gif') no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(160deg, #000000, #1c1c1c);
   color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .container {
-  max-width: 600px;
-  margin: 100px auto;
-  padding: 30px;
-  background: rgba(0, 0, 0, 0.3);
-  border: 2px solid #ff003c;
-  border-radius: 15px;
-  box-shadow: 0 0 20px #ff003c;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #ff0040;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px #ff0040;
   backdrop-filter: blur(10px);
+  max-width: 500px;
+  width: 100%;
   text-align: center;
 }
 
 h1 {
+  font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #ff003c;
-  text-shadow: 0 0 15px #ff003c;
+  color: #ff0040;
+  text-shadow: 0 0 10px #ff0040;
 }
 
 input {
-  width: 80%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 15px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 1rem;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #ff003c;
+  padding: 12px 24px;
+  background-color: #ff0040;
   border: none;
   border-radius: 8px;
-  color: #fff;
+  color: white;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 0 10px #ff003c;
-  transition: 0.3s;
-}
-
-button:hover {
-  background-color: #ff3366;
+  margin: 5px;
 }
 
 .typing-box {
-  margin-top: 30px;
-  font-size: 24px;
-  color: #fff;
-  text-shadow: 0 0 10px #ff003c;
-  min-height: 50px;
+  margin-top: 25px;
+  font-size: 1.3rem;
+  color: white;
+  min-height: 60px;
+  text-shadow: 0 0 10px #ff0040;
+  word-break: break-word;
 }
