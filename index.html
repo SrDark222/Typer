@@ -2,26 +2,19 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Painel XSS - DKZIN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Animation - DKZIN</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="painel">
-    <h1>Painel XSS - DKZIN</h1>
-
-    <label for="webhook">Salvar Webhook</label>
-    <input type="text" id="webhook" placeholder="https://discord.com/api/webhooks/..." />
-    <button onclick="salvarWebhook()">Salvar Webhook</button>
-
-    <label for="site">Salvar Link do Site</label>
-    <input type="text" id="site" placeholder="https://www.roblox.com/..." />
-    <button onclick="salvarSite()">Salvar Site</button>
-
-    <h2>Executar XSS</h2>
-    <button onclick="executarXSS()">Injetar XSS</button>
+  <div class="container">
+    <h1>Typing Animation - DKZIN</h1>
+    <input type="text" id="userText" placeholder="Digite seu texto aqui..." />
+    <button onclick="startTyping()">Iniciar</button>
+    <div class="typing-box">
+      <p id="typingText"></p>
+    </div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
