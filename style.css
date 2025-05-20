@@ -1,0 +1,46 @@
+body {
+  background: #0a0a0a;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.painel {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid red;
+  box-shadow: 0 0 20px red;
+  width: 350px;
+  text-align: center;
+}
+
+.painel h1 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.painel input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #222;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.painel button {
+  padding: 10px 15px;
+  background: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  box-shadow: 0 0 10px red;
+  cursor: pointer;
+}
